@@ -18,11 +18,11 @@ export default class CharactersController {
     charactersService.getCharacters();
   }
 
-  next() {
-    charactersService.next()
+  nextChar() {
+    charactersService.nextChar()
   }
 
-  previous() {
-    charactersService.previous()
+  previousChar() {
+    charactersService.previousChar()
   }
 }
